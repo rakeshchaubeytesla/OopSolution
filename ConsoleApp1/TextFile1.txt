@@ -7,5 +7,21 @@ Example Member class can have method of CreateMemebership,Remove memebership def
 or makebooking() it shouold be in boiking class not member class.
 
 
-O: Open for extension closed for midfication.
+O: Open for extension closed for modfication.It means you class cannot be modified but it can'
+be extended.
+L: Lisckovs Substitution Principle.
+
+A is divided into B C D. Any method on A should be implemented on B C D. 
+And actual implementation sould be there . 
+
+I: INterface Segrettaion principle:
+Any Client should not be forced to implemnt interface which is irrelevant to it.
+Example When you go to restaurent you have deifferent menu for Drink and food. 
+Dont provide menu for non drinkers with drink menu and men for food to people who comes to drink/
+Dont force client to implment interface which is irrelevant to it.
+Lets say we have booking class.It has 2 method bookingdetails and paymentdetails.
+We create IPayment INterface with a method SavePaymentDetails.
+
+D: Dependency Invesrion Principle
+Move the Dependency out of the classes.
 

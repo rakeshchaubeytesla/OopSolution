@@ -43,6 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DependencyInversionPrinciple\Boiking.cs" />
+    <Compile Include="DependencyInversionPrinciple\DCardPayment.cs" />
+    <Compile Include="DependencyInversionPrinciple\DCashPayment.cs" />
+    <Compile Include="DependencyInversionPrinciple\DOnlineCardPaymen.cs" />
+    <Compile Include="DependencyInversionPrinciple\IDPayment.cs" />
+    <Compile Include="InterfaceSeggeragationPrinciple\CashPayment.cs" />
+    <Compile Include="InterfaceSeggeragationPrinciple\ICardPayment.cs" />
+    <Compile Include="InterfaceSeggeragationPrinciple\IPaymentcs.cs" />
+    <Compile Include="InterfaceSeggeragationPrinciple\OnlineCardPayment.cs" />
+    <Compile Include="InterfaceSeggeragationPrinciple\UPIPayment.cs" />
+    <Compile Include="LiskovDistributionPrinciple\AnnualMember.cs" />
+    <Compile Include="LiskovDistributionPrinciple\Enquiry.cs" />
+    <Compile Include="LiskovDistributionPrinciple\LifeTimeMember.cs" />
+    <Compile Include="LiskovDistributionPrinciple\Member.cs" />
     <Compile Include="OpenForExtension\CashPayment.cs" />
     <Compile Include="OpenForExtension\IPayment.cs" />
     <Compile Include="OpenForExtension\NetBankingPayment.cs" />
