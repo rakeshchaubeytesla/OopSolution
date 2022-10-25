@@ -1,0 +1,11 @@
+﻿SOLID
+
+S: Single Responsiblity principle.
+Sachin wife took care of all other matters And sachin was only focussed on cricket.
+UserController should only have methods relatred to users specific. Not role and other related,
+Example Member class can have method of CreateMemebership,Remove memebership defintely not removeuser()
+or makebooking() it shouold be in boiking class not member class.
+
+
+O: Open for extension closed for midfication.
+
